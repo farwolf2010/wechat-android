@@ -23,7 +23,6 @@ import static com.farwolf.wechat.WechatEntryActivity.wxApi;
  * Created by zhengjiangrong on 2017/8/9.
  */
 @WeexModule(name="wechat")
-@com.alibaba.weex.plugin.annotation.WeexModule(name="wechat")
 public class WechatModule extends WXModuleBase {
 
 

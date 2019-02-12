@@ -55,12 +55,12 @@ replaceAll()
 
   function replaceAll(){
     
-    let ac1=  path+'/platforms/android/wechat/.wxpScript/wxapi/WXEntryActivity.java'
+    // let ac1=  path+'/platforms/android/wechat/.wxpScript/wxapi/WXEntryActivity.java'
     let ac2=  path+'/platforms/android/wechat/.wxpScript/wxapi/WXPayEntryActivity.java'
       replace({
         regex: "appid",
         replacement: packagename,
-        paths: [ac1,ac2],
+        paths: [ac2],
         recursive: true,
         silent: true,
       });
