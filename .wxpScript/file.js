@@ -89,6 +89,7 @@ const del = (path) => {
  // console.log(path)
      var del = require('delete');
      del.sync(path, {force: true});
+     resolve()
    })
              
 
