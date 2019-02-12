@@ -1,4 +1,4 @@
-package com.farwolf.wxpdemo.wxapi;
+package appid.wxapi;
 
 import com.farwolf.wechat.WechatEntryActivity;
 
